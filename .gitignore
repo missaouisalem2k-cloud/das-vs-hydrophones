@@ -1,0 +1,31 @@
+# =====================================================================
+# .gitignore : liste des fichiers que Git doit IGNORER (ne pas publier)
+# =====================================================================
+
+# --- Fichiers créés automatiquement par Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Environnements virtuels ---
+venv/
+.venv/
+env/
+
+# --- Données (trop lourdes pour GitHub : le fichier OOI fait ~850 Mo) ---
+data/
+*.h5
+*.hdf5
+
+# --- Documents personnels (explications, sources LaTeX) ---
+*.pdf
+*.zip
+
+# --- Brouillons et fichiers hors projet ---
+PYTHON FUNCTION.py
+\# TP2 - Trajectographie avec un sonar pa.py
+
+# --- Fichiers système et éditeur ---
+.vscode/
+.DS_Store
+Thumbs.db
